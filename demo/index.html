@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>polypar-flag-icon demo</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', sans-serif;
+        }
+
+        .italy {
+            --polypar-flag-icon-size: 36px;
+        }
+
+        .kingdom {
+            --polypar-flag-icon-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <h1>polypar-flag-icon demo</h1>
+    <p>
+        <polypar-flag-icon flag="france"></polypar-flag-icon>
+    </p>
+    <p>
+        <polypar-flag-icon flag="italy" class="italy"></polypar-flag-icon>
+    </p>
+    <p>
+        <polypar-flag-icon flag="kingdom" class="kingdom"></polypar-flag-icon>
+    </p>
+    <script src="../polypar-flag-icon.js" type="module"></script>
+</body>
+</html>
