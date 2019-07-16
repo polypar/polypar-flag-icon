@@ -1,0 +1,27 @@
+{
+  "name": "polypar-flag-icon",
+  "version": "1.0.0",
+  "description": "Web component for SVG icons of country flags based on LitElement",
+  "main": "polypar-flag-icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polypar/polypar-flag-icon.git"
+  },
+  "keywords": [
+    "polypar",
+    "webcomponent",
+    "litelement"
+  ],
+  "author": "Polypar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polypar/polypar-flag-icon/issues"
+  },
+  "homepage": "https://github.com/polypar/polypar-flag-icon#readme",
+  "dependencies": {
+    "lit-element": "^2.2.0"
+  }
+}
